@@ -1,0 +1,18 @@
+.signup {
+	padding: 50px 0;
+}
+.headerTitle {
+	composes: headerTitle from "../Login/login.module.css";
+}
+.haveAcount {
+	color: #444;
+	text-align: center;
+	margin-bottom: 0;
+}
+.haveAcount a:active {
+	color: inherit;
+}
+.generalError {
+	color: red;
+	text-align: center;
+}

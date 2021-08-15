@@ -1,0 +1,41 @@
+.comment {
+	display: flex;
+	align-items: flex-start;
+	background-color: #eee;
+	margin-bottom: 20px;
+	padding: 10px;
+	border-radius: 4px;
+}
+.comment:last-child {
+	margin-bottom: 0;
+}
+.userimg {
+	border-radius: 50%;
+}
+.commentContent {
+	margin-left: 20px;
+	color: #333;
+}
+.username {
+	font-size: 0.85rem;
+	color: #333;
+	font-weight: 500;
+}
+.bodyComment {
+	font-weight: 500;
+}
+.timeComment {
+	font-size: 0.7rem;
+	font-weight: 400;
+	color: #999;
+}
+.deleteIcon {
+	margin-left: auto;
+	color: #333;
+	font-size: 1.5rem;
+	cursor: pointer;
+}
+.disabledDeleteIcon {
+	pointer-events: none;
+	color: #999;
+}

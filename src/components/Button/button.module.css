@@ -1,0 +1,29 @@
+.button {
+	composes: backgroundColorSecondary from "../css/color.css";
+	composes: colorSecondary from "../css/color.css";
+	text-decoration: none;
+	padding: 4px 8px;
+	margin: 0px 5px;
+	border-radius: 6px;
+	border: none;
+	cursor: pointer;
+	font-size: 1rem;
+	box-shadow: 0 3px 5px 0 rgb(47 85 212 / 5%);
+	font-weight: 600;
+}
+.button:disabled {
+	background-color: #553d67bf;
+	cursor: not-allowed;
+}
+.button:focus {
+	outline-color: #000;
+}
+@media (min-width: 768px) {
+	.button {
+		padding: 6px 20px;
+	}
+}
+.largeButton {
+	padding: 8px 20px;
+	font-size: 1.3rem;
+}

@@ -1,0 +1,62 @@
+.ScreamSkeleton {
+	display: flex;
+	align-items: flex-start;
+	flex-wrap: wrap;
+	background-color: #fff;
+	padding: 1rem;
+	border-radius: 4px;
+	margin-bottom: 10px;
+	box-sizing: border-box;
+}
+@media (min-width: 767px) {
+	.ScreamSkeleton {
+		width: 100%;
+		max-width: 700px;
+		margin-right: auto;
+		margin-left: auto;
+	}
+}
+.imgScream {
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	background-color: #666;
+}
+.screamContent {
+	padding-left: 20px;
+	flex: 1;
+}
+.text {
+	margin: 0 0 10px 0;
+	height: 10px;
+	background-color: #999;
+	width: 20%;
+	border-radius: 3px;
+}
+.bodyText {
+	composes: text;
+	height: 20px;
+	width: 40%;
+	background-color: #666;
+	border-radius: 3px;
+}
+.containerLikeComment {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: space-between;
+}
+@media (min-width: 768px) {
+	.containerLikeComment {
+		justify-content: flex-start;
+	}
+}
+.icon {
+	padding: 5px;
+	display: block;
+	height: 10px;
+	width: 16px;
+	background-color: #666;
+	margin: 5px;
+	border-radius: 4px;
+}

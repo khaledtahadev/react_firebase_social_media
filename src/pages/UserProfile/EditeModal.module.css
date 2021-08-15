@@ -1,0 +1,8 @@
+.editIcon {
+	composes: colorSecondary from "../../components/css/color.css";
+	font-size: 1.2rem;
+	cursor: pointer;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+}

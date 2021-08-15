@@ -1,0 +1,44 @@
+.notificationsBox {
+	margin-left: auto;
+	margin-right: 10px;
+	position: relative;
+}
+.iconNotifications {
+	font-size: 1.3rem;
+	cursor: pointer;
+}
+.badge {
+	color: red;
+	position: absolute;
+	left: 18px;
+	top: -5px;
+}
+.contentNotifications {
+	position: absolute;
+	top: 22px;
+	right: 0;
+	padding: 10px;
+	border-radius: 4px;
+	background-color: #553d67;
+	color: #ddd;
+	list-style: none;
+	z-index: 1;
+}
+.notification {
+	display: flex;
+	align-items: center;
+	padding: 10px;
+	cursor: pointer;
+	white-space: nowrap;
+}
+.notification:hover {
+	transition: 0.3s;
+	color: #ddddddad;
+}
+.iconTypeNotification {
+	margin-right: 5px;
+}
+.linkNotification {
+	color: inherit;
+	text-decoration: none;
+}
